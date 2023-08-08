@@ -1,0 +1,8 @@
+@media (max-width : 767px) {
+    .details-head{
+        flex-direction: column;
+    }
+    .details-head .col{
+        margin-top: 15px;
+    }
+}

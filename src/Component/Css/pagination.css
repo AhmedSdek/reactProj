@@ -1,0 +1,8 @@
+
+@media (max-width : 767px) {
+    .page-link{
+        padding: 9px !important;
+        font-size: 11px !important;
+    }
+    
+}

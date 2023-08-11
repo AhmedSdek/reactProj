@@ -10,10 +10,10 @@ import { useEffect } from "react";
 function MovieList({ getPages, pagecount}) {
     const [movies , setMovies] = useState([]);
     const dispatch = useDispatch();
+    const movieData = useSelector((state) => state.movies);
     useEffect(()=> {
         dispatch(getAllMovies())
-        },[]);
-        const movieData = useSelector((state) => state.movies);
+    },[]);
         useEffect(()=> {
         setMovies(movieData)
         },[movieData]);

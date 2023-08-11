@@ -9,9 +9,7 @@ function App() {
     <div className="App">
       <NavBar  />
       <Routes>
-        <Route path="/" element= {<Container>
-        <MovieList />
-      </Container>}/>
+        <Route path="reactProj" element= {<Container><MovieList /></Container>}/>
         <Route path="/movie/:id" element= {<Container><MovieDetails /></Container>}/>
       </Routes>
     </div>

@@ -20,7 +20,7 @@ const search = (word) => {
         
         <Navbar expand="lg" className="bg-body-tertiary">
         <Container >
-            <Link className = 'navbar-brand' to="/movieProject">EgyBest</Link>
+            <Link className = 'navbar-brand' to="/reactProj">EgyBest</Link>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll" style={{justifyContent: "flex-end"}}>
                 <Form className="d-flex" style={{width: '95%'}}>

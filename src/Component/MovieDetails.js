@@ -44,7 +44,7 @@ function MovieDetails() {
         </Row>
             <Row>
                 <Col style={{textAlign : 'center'}}>
-                    <Link to='/' >
+                    <Link to='/reactProj' >
                         <Button style={{marginLeft:'10px'}}> الصفحه الرئيسيه </Button>
                     </Link>
                     <a href={details.homepage}>
